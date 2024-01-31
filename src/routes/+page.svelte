@@ -1,9 +1,7 @@
 <script lang="ts">
 	import { counter } from '$lib/counter';
 
-	const increment = () => ($counter += 1);
-	const decrement = () => ($counter -= 1);
-	const reset = () => ($counter = 0);
+	const { decrement, increment, reset } = counter;
 </script>
 
 <h1 class="pt-10 text-3xl text-center text-white/90">Welcome to SvelteKit Guide</h1>

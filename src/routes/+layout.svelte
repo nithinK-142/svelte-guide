@@ -1,20 +1,11 @@
 <script>
-  import Navbar from "./Navbar.svelte";
-  import Footer from "./Footer.svelte";
-  import "../app.css";
-
+	import '../app.css';
 </script>
 
-<Navbar />
+<svelte:head>
+	<title>Svelte Guide</title>
+</svelte:head>
 
-<main>
-    <slot />
-</main> 
-
-<Footer />
-
-<style>
-    main {
-        height: 70vh;
-    }
-</style>
+<main class="h-screen bg-[#222] font-kanit">
+	<slot />
+</main>

@@ -1,14 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Kanit:wght@200;300;400;600&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-}
-body {
-	/* overflow-y: hidden; */
-	background-color: #5F746F;
-	/* background-color: #1F2231; */
-}

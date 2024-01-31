@@ -1,0 +1,1 @@
+<h1 class="pt-6 text-2xl text-white">About</h1>

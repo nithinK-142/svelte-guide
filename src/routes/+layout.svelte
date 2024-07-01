@@ -6,6 +6,6 @@
 	<title>Svelte Guide</title>
 </svelte:head>
 
-<main class="h-screen bg-[#222] font-kanit">
+<main class="flex flex-col items-center text-center font-kanit">
 	<slot />
 </main>

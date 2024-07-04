@@ -13,7 +13,7 @@
 
 	onMount(async () => {
 		try {
-			const response = await axios.get(import.meta.env.VITE_API_BRANCH_URL);
+			const response = await axios.get(import.meta.env.VITE_BRANCH_SENTINEL_URL);
 			branches = response.data;
 			loading = false;
 		} catch (err) {
